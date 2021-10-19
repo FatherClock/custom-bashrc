@@ -174,11 +174,13 @@ alias clean='sudo apt autoremove && sudo apt autoclean'
 
 alias downloads='cd ~/Downloads/'
 alias desktop='cd ~/Desktop/'
+alias picdir='cd ~/Pictures/'
+alias docs='cd ~/Documents/'
 alias home='cd'
 alias root='sudo -i'
 alias back='cd ..'
 alias dira='dir -a'
-
+alias winpydir='~/.wine/drive_c/users/fathertime/"Local Settings"/"Application Data"/Programs/Python/Python38'
 
 ######
 # LS #
@@ -199,7 +201,12 @@ alias ls='ls --color=auto -lh -a'
 alias a='alias'
 alias c='clear'
 alias e='exit'
-alias source='source ~/.zshrc'
+alias source='source ~/.bashrc'
+alias die='shutdown 0'
+alias restart='shutdown -r 0'
+alias histc='history -c'
+
+
 
 #######
 # GIT #
@@ -246,5 +253,4 @@ extract () {
 
  fi
 }
-
 
